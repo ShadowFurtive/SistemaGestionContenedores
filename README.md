@@ -7,7 +7,7 @@
 
 ![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)
 
-Proyecto realizado en parejas para la primera actividad de la asignatura ESIN de la EPSEVG-UPC. Como el proyecto no tuvo que ser documentado, no hay demasiada documentación aparte de los comentarios en los códigos . 
+Proyecto realizado en parejas para la práctica final de la asignatura ESIN de la EPSEVG-UPC. Como el proyecto no tuvo que ser documentado, no hay demasiada documentación aparte de los comentarios en los códigos . 
 
 - Autores: Mario Kochan y [Abdullah Bashir](https://github.com/aawan2805)
 - Fecha: 08/01/2021
