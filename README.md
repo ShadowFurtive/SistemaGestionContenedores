@@ -10,7 +10,7 @@
 Proyecto realizado en parejas para la primera actividad de la asignatura ESIN de la EPSEVG-UPC. Como el proyecto no tuvo que ser documentado, no hay demasiada documentación aparte de los comentarios en los códigos . 
 
 - Autores: Mario Kochan y [Abdullah Bashir](https://github.com/aawan2805)
-- Fecha: 08/01/2019
+- Fecha: 08/01/2021
 - Profesores: Jordi Esteve y Bernardino Casas
 
 ## Características
