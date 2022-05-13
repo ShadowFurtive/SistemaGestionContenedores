@@ -1,0 +1,3 @@
+int fila; // Atribut que guarda el número de fila
+int plaza; // Atribut que guarda el número de plaça
+int piso; // Atribut que guarda el pis

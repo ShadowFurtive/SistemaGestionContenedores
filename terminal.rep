@@ -1,0 +1,107 @@
+int plaza; // número de plaçes
+int filas; // número de files
+int altura; // número d'altura
+estrategia strategy; // Guarda l'estretegia
+int grua; // Guarda les operacions de grúa.
+
+struct datos {
+    ubicacio ub;
+    contenidor cont;
+    datos():ub(-1,-1,-1), cont("NOOP", 10){};
+};
+
+cataleg<datos> *ctlg;
+
+struct node_ze {
+    string info;
+    node_ze* fe;
+    node_ze* fd;
+};
+node_ze* ze_bst;
+list<string> ze; // Zona d'espera
+
+// Com no hi ha un constructor sense paràmetres, aprofitem un struct
+// contenidor ***mapa;
+struct datos2 {
+    string matricula;
+    nat longitud;
+    // datos2(string matricula="", nat longitud=0);
+};
+// Porque hemos elegido el string vacío??
+datos2 ***mapa;
+
+struct node {
+    ubicacio ub;
+    node* seg;
+    node* ant;
+    node():ub(-1,-1,-1), seg(NULL), ant(NULL){}
+};
+node* _head;
+
+/*
+PRE:
+POST:
+*/
+pair<bool, ubicacio> aa_insereix_contenidor(const contenidor &c) throw(error);
+
+/*
+PRE:
+POST:
+*/
+void aa_insereix_contenidor_ze() throw(error);
+
+/*
+PRE:
+POST:
+*/
+void aa_retira_contenidor(const string &m) throw(error);
+
+/*
+PRE:
+POST:
+*/
+void destruir_llista_forats(node* n);
+
+/*
+PRE:
+POST:
+*/
+node* copia_nodes_forats(node* n);
+
+/*
+PRE:
+POST:
+*/
+void reordenar_nodes(node* n);
+
+/*
+PRE:
+POST:
+*/
+void ordenar_apartir_de_node(node* n, node* aux);
+
+/*
+PRE:
+POST:
+*/
+node_ze* insereix_bst(node_ze* n, string info);
+/*
+PRE:
+POST:
+*/
+node_ze* esborra_node_bst(node_ze* n, string info) throw();
+/*
+PRE:
+POST:
+*/
+node_ze* elimina_maxim(node_ze* n) throw();
+/*
+PRE:
+POST:
+*/
+node_ze* ajunta(node_ze* t1, node_ze* t2) throw();
+/*
+PRE:
+POST:
+*/
+void ze_en_llista(node_ze *t1, list<string> &l) const throw();

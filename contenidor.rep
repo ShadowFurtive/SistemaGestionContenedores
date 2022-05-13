@@ -1,0 +1,2 @@
+string _m; // Guarda la matrícula del contenidor
+nat _long; // Guarda la longitud del contenidor

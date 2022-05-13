@@ -1,0 +1,39 @@
+struct node_hash {
+    string _c;
+    Valor _v;
+    node_hash* _seg;
+    // node_hash(const string &k, const Valor &v, node_hash* seg=NULL) throw(error);
+};
+
+node_hash **table;
+int _M;
+nat _quants;
+
+/*
+PRE
+POST
+*/
+static node_hash* copia_nodes(node_hash* m);
+/*
+PRE
+POST
+*/
+static void esborra_nodes(node_hash* m);
+/*
+PRE
+POST
+*/
+static bool aa_existeix(node_hash* m, const string &k);
+static Valor quin(node_hash* m, const string &k);
+
+/*
+PRE
+POST
+*/
+static bool es_primer(nat n);
+
+/*
+PRE:
+POST:
+*/
+void redispersio();
